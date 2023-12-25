@@ -43,6 +43,7 @@ WriteMakefile(
   },
   CONFIGURE_REQUIRES => {
     %configure_and_runtime_requires,
+    'SPVM::Unicode::Normalize' => '0.002',
   },
   PREREQ_PM         => {
     %configure_and_runtime_requires,
