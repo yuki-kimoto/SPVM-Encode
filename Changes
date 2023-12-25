@@ -1,7 +1,7 @@
 0.002  2022-12-25
   [Requirement Changes]
-    * Require SPVM::Unicode::Normalize 0.002
-
+    * Require SPVM::Unicode::Normalize 0.002.
+    * Require SPVM::Regex 0.243001.
 0.001  2022-12-22
 
   - First release
