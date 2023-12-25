@@ -6,10 +6,11 @@ class Encode : precompile {
   
   use IntList;
   use Fn;
+  use Unicode::Normalize;
   
   static method decode_utf8 : string ($utf8_string : string) {
     
-    my $string = &NFC($utf8_string);
+    my $string = Unicode::Normalize->NFC($utf8_string);
     
     return $string;
   }
@@ -218,7 +219,5 @@ class Encode : precompile {
     
     return $is_unicode_scalar_value;
   }
-  
-  native private static method NFC : string ($string : string);
   
 }

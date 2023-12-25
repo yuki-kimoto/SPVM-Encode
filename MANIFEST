@@ -8,11 +8,6 @@
 Changes
 lib/SPVM/Encode.c
 lib/SPVM/Encode.config
-lib/SPVM/Encode.native/include/.gitkeep
-lib/SPVM/Encode.native/include/spvm_utf8proc.h
-lib/SPVM/Encode.native/include/spvm_utf8proc_data.c
-lib/SPVM/Encode.native/src/.gitkeep
-lib/SPVM/Encode.native/src/spvm_utf8proc.c
 lib/SPVM/Encode.pm
 lib/SPVM/Encode.spvm
 LICENSE
