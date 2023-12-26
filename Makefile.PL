@@ -59,6 +59,7 @@ sub MY::postamble {
   unless ($no_build_spvm_modules) {
     require SPVM::Builder::Util::API;
     $make_rule .= SPVM::Builder::Util::API::create_make_rule_native('Encode');
+    $make_rule .= SPVM::Builder::Util::API::create_make_rule_precompile('Encode');
   }
   
   return $make_rule;
